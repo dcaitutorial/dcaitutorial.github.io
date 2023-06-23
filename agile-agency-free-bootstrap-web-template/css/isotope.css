@@ -5,7 +5,7 @@
 .isotope-item {
   z-index: 2; 
 padding: 5px;
-background: rgba(0,0,0,0.0001);
+background: #FFE4A9;
 }
 
 .isotope-hidden.isotope-item {

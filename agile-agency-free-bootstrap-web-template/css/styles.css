@@ -228,7 +228,7 @@ right:0px;
 }
 .flex-caption {zoom: 1;
 bottom: 120px;  color: #fff; margin: 0; padding: 25px 25px 25px 30px; position: absolute; left: 0; background: transparent;margin: 0 auto;right: 0;}
-.flex-caption h3 {color: #fff; letter-spacing: 1px; margin-bottom: 8px; text-transform: uppercase;font-size: 50px;font-weight: bolder;}
+.flex-caption h3 {color: #fff; letter-spacing: 1px; margin-bottom: 8px; text-transform: uppercase;font-size: 113px;font-weight: bolder;}
 .flex-caption p {margin: 0 0 15px;font-size: 20px !important;}	
 .flex-caption a{
     background: transparent !important;
@@ -330,7 +330,6 @@ margin-bottom: 30px;
 	border-bottom: 4px solid #A43E89;
 }
 .carousel-inner > .item {
-	padding: 0px;
 }
 .carousel-caption {
 	padding: 0px;
@@ -646,9 +645,6 @@ img, video, iframe, embed, object {
 	letter-spacing: 1px;
 	color: #222;
 }
-#aboutUs h2 {
-	color: #fff;
-}
 .fluid-video-wrapper {
 	margin-top: 18px;
 }
@@ -660,10 +656,10 @@ img, video, iframe, embed, object {
 	float: right;
 }
 .row .area1 {
-	width: 50%;
+	width: 65%;
 }
 .row .area2 {
-	width: 50%;
+	width: 35%;
 }
 /* Services
     -------------------------------------------------*/
@@ -770,10 +766,6 @@ img, video, iframe, embed, object {
 	font-size: 18px;
 }
 /* --Portfolio----- */
-#About {
-	background: #27AFD3;
-	color: #fff;
-}
 #work {
 	background: #27AFD3;
 	color: #fff;
@@ -808,33 +800,11 @@ img, video, iframe, embed, object {
 #portfolio .items {
 	margin-bottom: 0
 }
-#portfolio .references{
-	position: relative !important; 
-	float: left !important; 
-	left:20% !important; 
-	top: 0px; 
-	transform: translate3d(0px, 0px, 0px) !important;
-}
-#portfolio .blog{
-	position: relative !important; 
-	float: left !important; 
-	left:20% !important; 
-	top: 0px; 
-	transform: translate3d(0px, 0px, 0px) !important;
-}
 #portfolio .items li {
 	position: relative;
 	float: left;
-	float: left;
-    position: relative;
-    left: 50%;
-	width: 100%;
+	width: 25%;
 	overflow: hidden;
-/*	padding-left: 0;
-	padding-right: 0;
-	padding: 18px 120px;
-    padding-bottom: 15px;
-    margin-bottom: 30px*/
 }
 #portfolio .items li a img {
 	width: 100%;
@@ -1109,11 +1079,11 @@ padding:35px 0;
 }
 .navbar-inverse .navbar-nav > li > a {
 	color: #fff;
-    font-size: 1.1em;
-    padding: 6px 14px !important;
-    border-radius: 5px;
-    margin: 40px 10px;
-    border: 1px solid transparent;
+	font-size: 1.1em;
+	padding: 6px 14px !important;
+	border-radius: 5px;
+	margin: 19px 0px;
+	border: 1px solid transparent;
 }
 
 }
@@ -1432,15 +1402,10 @@ nav#filter li {
 	margin: 0px;
 }
 .isotope-item {
-	position: relative; 
-	float: left; 
-	left:25%; 
-	top: 0px; 
-	transform: translate3d(0px, 0px, 0px);
-/*	margin: 0px;
+	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
-	opacity: 1;*/
+	opacity: 1;
 }
 .isotopeWrapper article {
 	margin: 0px;
