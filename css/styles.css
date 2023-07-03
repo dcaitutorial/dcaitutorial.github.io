@@ -173,7 +173,7 @@ padding: 8px 12px;
 	background: rgba(255,255,255,0.35);
 }
 a {
-	color: #27AFD3;
+	color: #000;
 	text-decoration: none;
 	text-shadow: none;
 	-webkit-transition: all 0.2s linear;
@@ -183,7 +183,7 @@ a {
 	transition: all 0.2s linear;
 }
 a:hover {
-	color: #000;
+	color: #27AFD3;
 	text-decoration: none;
 }
 .btn {
@@ -809,18 +809,35 @@ img, video, iframe, embed, object {
 	margin-bottom: 0
 }
 #portfolio .references{
-	position: relative !important; 
+	/*position: relative !important; 
 	float: left !important; 
-	left:20% !important; 
+	left:35% !important; 
 	top: 0px; 
-	transform: translate3d(0px, 0px, 0px) !important;
+	transform: translate3d(0px, 0px, 0px) !important;*/
+	position: absolute; 
+	float: left; 
+	left:500px; 
+	top: 0px; 
+	transform: translate3d(20%, 0px, 0px) !important;
 }
 #portfolio .blog{
-	position: relative !important; 
+/*	position: relative !important; 
 	float: left !important; 
-	left:20% !important; 
+	left:35% !important; 
 	top: 0px; 
-	transform: translate3d(0px, 0px, 0px) !important;
+	transform: translate3d(0px, 0px, 0px) !important;*/
+	position: absolute; 
+	float: left; 
+	left:500px; 
+	top: 219px; 
+	transform: translate3d(35%, 0px, 0px) !important;
+}
+#portfolio .opensource{
+	position: absolute; 
+	float: left; 
+	left:500px; 
+	top: 0px; 
+	transform: translate3d(35%, 0px, 0px) !important;
 }
 #portfolio .items li {
 	position: relative;
