@@ -3,7 +3,7 @@
 // CopyRights : http://webthemez.com
 var customScripts = {
     profile: function () {
-     	 var portfolio = $('#portfolio');
+     	var portfolio = $('#portfolio');
 		var items = $('.items', portfolio); 
 		var filters = $('.filters li a', portfolio); 
 	
@@ -23,13 +23,13 @@ var customScripts = {
 			items.isotope({ filter: selector });
 			return false;
 		});            
+        items.isotope({ filter: '.references' });
     },
     fancybox: function () {
         // fancybox
         $(".fancybox").fancybox();
     },
     onePageNav: function () {
-
         $('#mainNav').onePageNav({
             currentClass: 'active',
             changeHash: false,
