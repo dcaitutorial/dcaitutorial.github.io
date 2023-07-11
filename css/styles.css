@@ -278,6 +278,7 @@ margin-bottom: 30px;
 .addBg {
 	background: rgba(39, 175, 211, 1);
 	transition: all 0.3s linear;
+	height: 117px;
 	-webkit-transition: all 0.3s linear;
 	-moz-transition: all 0.3s linear;
 	-o-transition: all 0.3s linear;
