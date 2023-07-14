@@ -134,7 +134,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .page-header {
-    background: url(../images/banner.jpg) no-repeat;
+    background: url(../images/team/1.jpg) no-repeat;
     padding: 50px 0;
     margin-top: 80px;
 }
@@ -469,7 +469,7 @@ a.navbar-brand {
 .banner {
     text-align: center;
     color: #fff;
-    background: url(../images/banner.jpg) no-repeat;
+    background: url(../images/1.jpg) no-repeat;
     background-attachment: scroll;
     background-position: center center;
     -webkit-background-size: cover;
