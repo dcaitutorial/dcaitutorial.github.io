@@ -823,7 +823,7 @@ iframe {
 
 
 .call-to-action {
-    background: url(../images/parallax/call-to.jpg);
+    background: url(../images/2.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 90%;
@@ -989,22 +989,22 @@ iframe {
 
 
 /*------------------------------------------*/
-/* Start Portfolio Section
+/* Start resources Section
 /*------------------------------------------*/
 
-.portfolio-section-1 {
+.resources-section-1 {
     padding-top: 80px;
     padding-bottom: 120px;
     background: #f2fffc;
 }
 
-.portfolio-section-2 {
+.resources-section-2 {
     padding-top: 80px;
     padding-bottom: 120px;
     //background: #f7f7f7;
 }
 
-.portfolio-section-3 {
+.resources-section-3 {
     padding-top: 80px;
     padding-bottom: 120px;
     background: #111;
@@ -1012,17 +1012,17 @@ iframe {
 
 
 
-#portfolio-list {
+#resources-list {
     list-style: none;
     margin: 0;
     padding: 0;
     display: block;
 }
 
-.portfolio-section-2 #portfolio-list li {
+.resources-section-2 #resources-list li {
     margin-left: -2px;
 }
-#portfolio-list li {
+#resources-list li {
     position: relative;
     overflow: hidden;
     display: inline-block;
@@ -1040,7 +1040,7 @@ iframe {
 @media only screen 
 and (max-width : 550px) {
     
-     #portfolio-list li {
+     #resources-list li {
       width: 100%;
   }
 }
@@ -1049,19 +1049,19 @@ and (max-width : 550px) {
 and (max-width : 767px)
 and (min-width : 551px){
     
-     #portfolio-list li {
+     #resources-list li {
       width: 49.9%;
   }
 }
 
 @media (min-width: 768px) {
-  #portfolio-list li {
+  #resources-list li {
       width: 33.3%;
   }
 }
 
 
-.portfolio-item {
+.resources-item {
    width: 100%;
    height: 100%;
    position: relative;
@@ -1071,7 +1071,7 @@ and (min-width : 551px){
     -webkit-transition: all 0.3s;
 }
 
-.portfolio-caption {
+.resources-caption {
     
    width: 100%;
    height: 100%;
@@ -1086,7 +1086,7 @@ and (min-width : 551px){
 }
 
 
-.portfolio-caption h4 {
+.resources-caption h4 {
     display: inline-table;
     text-transform: uppercase;
     color: #fff;
@@ -1096,7 +1096,7 @@ and (min-width : 551px){
     padding-top: 10%;
 }
 
-.portfolio-caption p {
+.resources-caption p {
     position: relative;
     top: 12%;
     color: #fff;
@@ -1105,7 +1105,7 @@ and (min-width : 551px){
     padding: 0 10%;
 }
 
-.portfolio-caption a i {
+.resources-caption a i {
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -1121,52 +1121,52 @@ and (min-width : 551px){
     top: 70%;
 }
 
-.portfolio-caption a.link-1 i {
+.resources-caption a.link-1 i {
     left: 30%;
 }
 
-.portfolio-caption a.link-2 i {
+.resources-caption a.link-2 i {
     left: 50%;
 }
 
-.portfolio-caption h4,
-.portfolio-caption p,
-.portfolio-caption a i {
+.resources-caption h4,
+.resources-caption p,
+.resources-caption a i {
     -webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,200%,0);
 	transform: translate3d(0,200%,0);
 }
 
-.portfolio-item:hover .portfolio-caption h4,
-.portfolio-item:hover .portfolio-caption p,
-.portfolio-item:hover .portfolio-caption a i {
+.resources-item:hover .resources-caption h4,
+.resources-item:hover .resources-caption p,
+.resources-item:hover .resources-caption a i {
     -webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
-.portfolio-item:hover .portfolio-caption {
+.resources-item:hover .resources-caption {
     background-color: rgba(255, 67, 46, 0.8);
     opacity: 1;
     filter: Alpha(Opacity=100);
 }
 
-.portfolio-item:hover .portfolio-caption h4 {
+.resources-item:hover .resources-caption h4 {
     -webkit-transition-delay: 0.1s;
 	transition-delay: 0.1s;
 }
 
-.portfolio-item:hover .portfolio-caption p {
+.resources-item:hover .resources-caption p {
     -webkit-transition-delay: 0.15s;
 	transition-delay: 0.15s;
 }
 
-.portfolio-item:hover .portfolio-caption a.link-1 i {
+.resources-item:hover .resources-caption a.link-1 i {
     -webkit-transition-delay: 0.2s;
 	transition-delay: 0.2s;
 }
 
-.portfolio-item:hover .portfolio-caption a.link-2 i {
+.resources-item:hover .resources-caption a.link-2 i {
     -webkit-transition-delay: 0.25s;
 	transition-delay: 0.25s;
 }
@@ -1349,7 +1349,7 @@ h3.pricing-title {
 
 
 #testimonial-section {
-    background: url(../images/parallax/call-to.jpg) no-repeat;
+    background: url(../images/2.jpg) no-repeat;
     background-size: cover;
     padding: 100px 0;
     color: #fff;
