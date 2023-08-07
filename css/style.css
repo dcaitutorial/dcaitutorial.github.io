@@ -2142,4 +2142,13 @@ textarea {
     margin-top: 30px;
 }
 
+.row-center {
+  text-align:center;
+}
+
+.col-center {
+  display:inline-block;
+  float:none;
+}
+
 
