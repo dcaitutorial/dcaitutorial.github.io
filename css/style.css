@@ -876,6 +876,7 @@ iframe {
 .team-member {
     position: relative;
     overflow: hidden;
+    display:inline-block;
 }
 
 .team-member .team-details {
@@ -2145,10 +2146,4 @@ textarea {
 .row-center {
   text-align:center;
 }
-
-.col-center {
-  display:inline-block;
-  float:none;
-}
-
 
